@@ -19,7 +19,7 @@ AVehiclePawn::AVehiclePawn() {
 	
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Vehicle Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
-	Camera->bUsePawnControlRotation = false;
+	Camera->bUsePawnControlRotation = true;
 }
 
 void AVehiclePawn::Tick(float DeltaTime) {
