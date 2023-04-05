@@ -1,6 +1,13 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# ignore large size files
+Content/AutomotiveWinterScene/*
+Content/Maps/*
+Content/__ExternalActors__/*
+Content/__ExternalObjects__/*
+Content/Terrain_Test.umap
+
 # Compiled Object files
 *.slo
 *.lo
